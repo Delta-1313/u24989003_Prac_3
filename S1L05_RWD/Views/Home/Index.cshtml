@@ -36,18 +36,3 @@
         <span class="visually-hidden">Next</span>
     </button>
 </div>
-
-<script>
-    function checkScreenSize() {
-        var carousel = document.getElementById("myCarousel");
-        if (window.innerWidth < 700) {
-            carousel.style.display = "none";
-        } else {
-            carousel.style.display = "block";
-        }
-    }
-
-    window.onload = checkScreenSize;
-    window.onresize = checkScreenSize
-</script>
-
